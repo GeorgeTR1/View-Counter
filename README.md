@@ -1,3 +1,3 @@
 ```html
-<script src="https://raw.githubusercontent.com/GeorgeTR1/View-Counter/refs/heads/main/counter.js"></script>
+<script src="https://georgetr1.github.io/View-Counter/counter.js"></script>
 ```
