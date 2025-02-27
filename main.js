@@ -40,6 +40,7 @@ async function htmlMaker() {
 </tr>`;
   }
   return new Response(`
+<!DOCTYPE html>
 <html>
 <style>
 table {
@@ -65,5 +66,6 @@ th, td {
 
 </body>
 </html>
-    `, {headers: {"Content-Type": "text/html"}});
+    `);
+  //, {headers: {"Content-Type": "text/html"}}
 }
