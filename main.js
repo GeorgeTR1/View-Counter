@@ -15,7 +15,6 @@ async function gotUrl(url) {
   try {
     new URL(url);
   } catch {
-    console.log("Not a url!");
     return;  
   }
 
