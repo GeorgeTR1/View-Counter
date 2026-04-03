@@ -23,7 +23,8 @@ async function gotUrl(url) {
   var res = { ok: false };
   while (!res.ok) {
     res = await kv.atomic()
-      .sum(key, 1n)
+      .set(key, new Deno.KvU64(6367n))
+      //.sum(key, 1n)
       .commit();
   }
 }
